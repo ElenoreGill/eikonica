@@ -177,7 +177,7 @@ a {
   text-decoration: none;
   display: inline-block;
   padding: 5px;
-  justify-content: space-between;
+  justify-content: center;
   display: block;
   font-family: "input-mono", monospace;
   font-weight: 500;
