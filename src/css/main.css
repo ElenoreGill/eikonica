@@ -363,3 +363,11 @@ img {
 .hover-card:hover {
   display: inline-block;
 }
+h4 {
+  font-family: "input-mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 123px;
+  letter-spacing: 2.9px;
+  text-align: center;
+}
