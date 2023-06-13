@@ -42,6 +42,9 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+.container {
+  position: relative;
+}
 header {
   background-color: black;
   height: 894px;
@@ -77,6 +80,10 @@ p {
   font-size: 20px;
   letter-spacing: 0.57px;
   line-height: 41px;
+}
+.language-button {
+  color: black;
+  padding: 0;
 }
 /* ====================================
 // squares
@@ -214,13 +221,13 @@ h2 {
   padding-top: 135px;
 }
 
-/* squares */
+/* squares about us*/
 .large-square-3 {
   height: 74px;
   width: 74px;
   background-color: black;
   position: absolute;
-  top: 1650px;
+  top: 600px;
   left: 100px;
 }
 .medium-square-7 {
@@ -228,7 +235,7 @@ h2 {
   width: 53px;
   background-color: black;
   position: absolute;
-  top: 1600px;
+  top: 550px;
   left: 140px;
 }
 .small-square-4 {
@@ -236,15 +243,15 @@ h2 {
   width: 37px;
   background-color: black;
   position: absolute;
-  top: 1700px;
-  left: 180px;
+  top: 670px;
+  left: 200px;
 }
 .small-square-5 {
   height: 37px;
   width: 37px;
   background-color: black;
   position: absolute;
-  top: 1150px;
+  top: 100px;
   right: 250px;
 }
 .medium-square-8 {
@@ -252,7 +259,7 @@ h2 {
   width: 53px;
   background-color: black;
   position: absolute;
-  top: 1180px;
+  top: 130px;
   right: 210px;
 }
 .small-square-6 {
@@ -260,85 +267,89 @@ h2 {
   width: 37px;
   background-color: black;
   position: absolute;
-  top: 1255px;
-  right: 175px;
+  top: 160px;
+  right: 150px;
 }
 .small-square-7 {
   height: 37px;
   width: 37px;
   background-color: black;
   position: absolute;
-  top: 1220px;
-  right: 160px;
+  top: 195px;
+  right: 170px;
 }
 /* ====================================
 // squares
 // ==================================== */
 .about-us-line {
   position: relative;
-  top: 150px;
+  top: 280px;
 }
 .invites {
-  padding-top: 250px;
+  margin-top: 300px;
 }
 .img-invites {
-  position: relative;
+  height: 1200px;
 }
+
 .img-invite-1 {
   height: 306px;
-  position: absolute;
-  top: 100px;
-  left: 18%;
+  position: relative;
+  top: 40px;
+  left: 20%;
 }
 .img-invite-2 {
   height: 306px;
-  position: absolute;
-  top: 170px;
+  position: relative;
+  top: -100px;
   left: 40%;
 }
-
 .img-invite-3 {
   height: 306px;
-  position: absolute;
-  top: 60px;
-  right: 21%;
+  position: relative;
+  top: -350px;
+  left: 41%;
 }
 
 .img-invite-4 {
   height: 306px;
-  position: absolute;
-  top: 430px;
-  left: 21%;
+  position: relative;
+  top: 60px;
+  right: 10%;
 }
 
 .img-invite-5 {
   height: 306px;
-  position: absolute;
-  top: 500px;
-  left: 42%;
+  position: relative;
+  top: 230px;
+  left: -7%;
 }
 
 .img-invite-6 {
   height: 306px;
-  position: absolute;
-  top: 450px;
-  right: 20%;
+  position: relative;
+  top: 1 70px;
+  right: 5%;
+}
+
+img {
+  height: 306px;
 }
 .large-square-4 {
   height: 74px;
   width: 74px;
   background-color: black;
-  position: absolute;
-  top: -110px;
-  left: 590px;
+  position: relative;
+  top: -90px;
+  left: 650px;
 }
 .medium-square-9 {
   height: 53px;
   width: 53px;
   background-color: black;
   position: absolute;
-  top: -140px;
-  left: 560px;
+  top: 90px;
+  left: 630px;
 }
 .hover-card {
   display: none;
