@@ -459,3 +459,10 @@ li span {
   font-size: 30px;
   padding: 0;
 }
+.carte-fribourg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 7%;
+}
