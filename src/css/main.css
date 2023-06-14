@@ -206,6 +206,9 @@ a {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+a:hover {
+  color: red;
+}
 hr {
   border: none;
   height: 3px;
@@ -332,7 +335,7 @@ h2 {
   right: 5%;
 }
 
-img {
+.img-invites img {
   height: 306px;
 }
 .large-square-4 {
@@ -370,4 +373,25 @@ h4 {
   font-size: 123px;
   letter-spacing: 2.9px;
   text-align: center;
+}
+.background {
+  height: 1500px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.programme-background {
+  width: 100%;
+  z-index: 1;
+}
+.white {
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  z-index: 2;
+}
+.programme {
+  position: relative;
 }
