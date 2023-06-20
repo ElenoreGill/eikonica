@@ -403,6 +403,7 @@ h4 {
   position: absolute;
   left: -200px;
   z-index: 1;
+  font-size: 26px;
 }
 .programme {
   position: relative;
