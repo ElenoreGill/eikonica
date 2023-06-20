@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  margin: 0;
 }
 
 a {
@@ -291,98 +292,74 @@ h2 {
   position: relative;
   top: 280px;
 }
-.invites {
-  margin-top: 300px;
+
+.container-image-section {
+  max-height: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.container-image-section h2 {
+  margin-bottom: 20px;
+}
+
 .img-invites {
-  height: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 306px);
+  grid-gap: 20px;
+  height: 100%;
 }
 
-.img-invites img {
-  height: 306px;
-  transition: background-color 0.3s;
-}
-
-.img-invites img:hover {
-  background-color: red;
-}
-
-.img-invites img:hover::after {
-  content: "Hover Text";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.img-invite-1 {
-  height: 306px;
+.image-container {
   position: relative;
-  top: 40px;
-  left: -22%;
-  z-index: 1;
+  overflow: hidden;
 }
 
-.img-invite-2 {
-  height: 306px;
-  position: relative;
-  top: -100px;
-  left: 33%;
-}
-@media (min-width: 1800px) {
-  .img-invite-2 {
-    left: 30%;
-  }
-}
-.img-invite-3 {
-  height: 306px;
-  position: relative;
-  top: -350px;
-  left: 37%;
+.img-invite {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
 }
 
-.img-invite-4 {
-  height: 306px;
-  position: relative;
-  top: 20%;
-  right: 20%;
-}
-
-.img-invite-5 {
-  height: 306px;
-  position: relative;
-  top: 230px;
-  right: 14%;
-}
-
-.img-invite-6 {
-  height: 306px;
-  position: relative;
-  top: 170px;
-  right: 13%;
-}
-
-.img-invites img {
-  height: 306px;
+.img-invite:hover {
+  transform: scale(1.1);
 }
 
 .hover-card {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
   background-color: red;
-  color: white;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s;
 }
 
-.img-invites:hover .hover-card {
+.image-container:hover .hover-card {
   opacity: 1;
+}
+
+.hover-card h3,
+.hover-card p {
+  margin: 0;
+}
+
+.hover-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hover-card p {
+  font-size: 14px;
 }
 
 .large-square-4 {
