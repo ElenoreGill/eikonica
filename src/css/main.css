@@ -75,12 +75,23 @@ p {
   font-family: "input-mono", monospace;
   font-weight: 300;
   font-style: normal;
-  width: 83%;
-  padding-left: 17%;
-  padding-top: 55px;
   font-size: 20px;
   letter-spacing: 0.57px;
   line-height: 41px;
+  /* padding-left: 17%;
+  padding-top: 55px; */
+}
+.about-us {
+  font-family: "input-mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.57px;
+  line-height: 41px;
+  width: 80%;
+  padding-left: 20%;
+  text-align: left;
+  padding-top: 60px;
 }
 .language-button {
   color: black;
@@ -342,22 +353,52 @@ h2 {
 }
 
 .image-container:hover .hover-card {
-  opacity: 1;
+  opacity: 0.9;
 }
-
-.hover-card h3,
-.hover-card p {
-  margin: 0;
-}
-
 .hover-card h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-family: InputMono-Medium;
+  font-style: normal;
+  font-size: 27px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.14px;
+  text-align: center;
+  padding: 0;
+  width: 100%;
 }
 
 .hover-card p {
-  font-size: 14px;
+  font-family: InputMono-Italic;
+  font-size: 15px;
+  letter-spacing: 1.63px;
+  font-size: 12px;
+  padding: 0px;
+  padding-left: auto;
+  text-align: center;
+  font-weight: 400;
+  width: 100%;
+}
+.time {
+  font-family: InputMono-Medium;
+  display: flex;
+  font-size: 34px;
+  letter-spacing: 3.7px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.hover-card .where {
+  text-align: center;
+  font-weight: 600;
+  font-family: InputMono-Regular;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.hover-info {
+  margin-top: 100px;
 }
 
 .large-square-4 {
@@ -401,7 +442,7 @@ h4 {
 .programme-info p {
   color: white;
   position: absolute;
-  left: -200px;
+  left: 100px;
   z-index: 1;
   font-size: 26px;
 }
@@ -410,19 +451,19 @@ h4 {
 }
 
 .programme-1 {
-  top: 45%;
+  top: 47%;
 }
 .programme-2 {
-  top: 50%;
+  top: 52%;
 }
 .programme-3 {
-  top: 55%;
+  top: 57%;
 }
 .programme-4 {
-  top: 60%;
+  top: 62%;
 }
 .programme-5 {
-  top: 65%;
+  top: 67%;
 }
 .programme h2 {
   padding-bottom: 100px;
@@ -509,6 +550,7 @@ li span {
 .call-to-action {
   background-color: black;
   height: 850px;
+  padding-left: 20 %;
 }
 .call-to-action p {
   color: white;
