@@ -86,9 +86,6 @@ p {
   color: black;
   padding: 0;
 }
-.language-button:hover {
-  color: red;
-}
 /* ====================================
 // squares
 // ==================================== */
@@ -212,6 +209,7 @@ nav a {
 }
 a:hover {
   color: red;
+  transition: 0.4s;
 }
 hr {
   border: none;
@@ -304,7 +302,7 @@ h2 {
 }
 
 .container-image-section h2 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .img-invites {
@@ -429,6 +427,8 @@ button p {
 }
 .button:hover {
   background-color: red;
+  transition: 0.4s;
+  border: none;
 }
 .button-container {
   padding-bottom: 4%;
@@ -517,6 +517,10 @@ li span {
   padding: 0;
   margin: 0;
 }
+.icons img:hover {
+  height: 70px;
+  transition: 0.4s;
+}
 .contact {
   font-family: "input-mono", monospace;
   font-weight: 500;
@@ -532,6 +536,11 @@ li span {
   display: flex;
   justify-content: space-evenly;
 }
+
+.logo img:hover {
+  height: 110px;
+  transition: 0.4s;
+}
 footer {
   padding-bottom: 15%;
   padding-top: 7%;
@@ -539,4 +548,15 @@ footer {
 footer p {
   text-align: center;
   padding-bottom: 2%;
+}
+
+.language-button {
+  transition: 0.4s;
+  text-decoration: none;
+}
+.language-button:hover {
+  background-color: red;
+  color: white;
+  height: 53px;
+  width: 53px;
 }
