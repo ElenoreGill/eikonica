@@ -393,18 +393,40 @@ h4 {
   margin-right: auto;
 }
 .programme-background {
-  width: 100%;
-  z-index: 1;
+  width: 80%;
+  z-index: auto;
+  position: relative;
 }
-.white {
+
+.programme-info p {
   color: white;
   position: absolute;
-  left: 40%;
-  top: 20%;
-  z-index: 2;
+  left: -200px;
+  z-index: 1;
 }
 .programme {
   position: relative;
+}
+
+.programme-1 {
+  top: 45%;
+}
+.programme-2 {
+  top: 50%;
+}
+.programme-3 {
+  top: 55%;
+}
+.programme-4 {
+  top: 60%;
+}
+.programme-5 {
+  top: 65%;
+}
+.programme h2 {
+  padding-bottom: 100px;
+  padding-top: 200px;
+  font-size: 100px;
 }
 button {
   background: black;
