@@ -400,6 +400,17 @@ h2 {
 .hover-info {
   margin-top: 100px;
 }
+.hover-info-price {
+  margin-top: 30px;
+}
+.image-container:hover .price {
+  font-weight: 400;
+  font-family: InputMono-Medium;
+  font-size: 30px;
+  letter-spacing: 2.83px;
+  padding-top: 30px;
+  margin-left: 15px;
+}
 
 .large-square-4 {
   height: 74px;
@@ -550,7 +561,7 @@ li span {
 .call-to-action {
   background-color: black;
   height: 850px;
-  padding-left: 20 %;
+  padding-left: 20%;
 }
 .call-to-action p {
   color: white;
