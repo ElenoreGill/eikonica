@@ -97,106 +97,7 @@ p {
   color: black;
   padding: 0;
 }
-/* ====================================
-// squares
-// ==================================== */
 
-.small-square-1 {
-  height: 37px;
-  width: 37px;
-  background-color: white;
-  position: absolute;
-  top: 45px;
-  left: 90px;
-}
-.medium-square-1 {
-  height: 53px;
-  width: 53px;
-  background-color: white;
-  position: absolute;
-  top: 80px;
-  left: 50px;
-}
-.small-square-2 {
-  height: 37px;
-  width: 37px;
-  background-color: white;
-  position: absolute;
-  top: 200px;
-  left: 800px;
-}
-.medium-square-2 {
-  height: 53px;
-  width: 53px;
-  background-color: white;
-  position: absolute;
-  top: 150px;
-  left: 815px;
-}
-.large-square-1 {
-  height: 74px;
-  width: 74px;
-  background-color: white;
-  position: absolute;
-  top: 500px;
-  left: 50px;
-}
-.medium-square-3 {
-  height: 53px;
-  width: 53px;
-  background-color: white;
-  position: absolute;
-  top: 450px;
-  left: 25px;
-}
-.small-square-3 {
-  height: 37px;
-  width: 37px;
-  background-color: white;
-  position: absolute;
-  top: 420px;
-  left: 100px;
-}
-.medium-square-4 {
-  height: 53px;
-  width: 53px;
-  background-color: white;
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  font-size: 35px;
-  padding: 7px;
-}
-.large-square-2 {
-  height: 74px;
-  width: 74px;
-  background-color: white;
-  position: absolute;
-  top: 70px;
-  right: 110px;
-}
-.medium-square-5 {
-  height: 53px;
-  width: 53px;
-  background-color: white;
-  position: absolute;
-  top: 130px;
-  right: 160px;
-}
-.medium-square-6 {
-  height: 53px;
-  width: 53px;
-  background-color: white;
-  position: absolute;
-  top: 180px;
-  right: 90px;
-  font-size: 35px;
-  padding: 10px;
-  color: black;
-}
-/* ====================================
-// squares
-// ==================================== */
 nav {
   margin: 5px;
   display: flex;
@@ -237,66 +138,6 @@ h2 {
   padding-top: 135px;
 }
 
-/* squares about us*/
-.large-square-3 {
-  height: 74px;
-  width: 74px;
-  background-color: black;
-  position: absolute;
-  top: 600px;
-  left: 100px;
-}
-.medium-square-7 {
-  height: 53px;
-  width: 53px;
-  background-color: black;
-  position: absolute;
-  top: 550px;
-  left: 140px;
-}
-.small-square-4 {
-  height: 37px;
-  width: 37px;
-  background-color: black;
-  position: absolute;
-  top: 670px;
-  left: 200px;
-}
-.small-square-5 {
-  height: 37px;
-  width: 37px;
-  background-color: black;
-  position: absolute;
-  top: 100px;
-  right: 250px;
-}
-.medium-square-8 {
-  height: 53px;
-  width: 53px;
-  background-color: black;
-  position: absolute;
-  top: 130px;
-  right: 210px;
-}
-.small-square-6 {
-  height: 37px;
-  width: 37px;
-  background-color: black;
-  position: absolute;
-  top: 100px;
-  right: 150px;
-}
-.small-square-7 {
-  height: 37px;
-  width: 37px;
-  background-color: black;
-  position: absolute;
-  top: 195px;
-  right: 170px;
-}
-/* ====================================
-// squares
-// ==================================== */
 .about-us-line {
   position: relative;
   top: 280px;
@@ -413,23 +254,6 @@ h2 {
   letter-spacing: 2.83px;
   padding-top: 30px;
   margin-left: 15px;
-}
-
-.large-square-4 {
-  height: 74px;
-  width: 74px;
-  background-color: black;
-  position: relative;
-  top: -90px;
-  left: 35%;
-}
-.medium-square-9 {
-  height: 53px;
-  width: 53px;
-  background-color: black;
-  position: absolute;
-  top: 90px;
-  left: 33%;
 }
 
 h4 {
@@ -651,7 +475,103 @@ footer p {
   width: 53px;
 }
 
-/* squares about us*/
+/* ====================================
+// squares
+// ==================================== */
+
+.small-square-1 {
+  height: 37px;
+  width: 37px;
+  background-color: white;
+  position: absolute;
+  top: 45px;
+  left: 90px;
+}
+.medium-square-1 {
+  height: 53px;
+  width: 53px;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+.small-square-2 {
+  height: 37px;
+  width: 37px;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.medium-square-2 {
+  height: 53px;
+  width: 53px;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  left: 815px;
+}
+.large-square-1 {
+  height: 74px;
+  width: 74px;
+  background-color: white;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+.medium-square-3 {
+  height: 53px;
+  width: 53px;
+  background-color: white;
+  position: absolute;
+  top: 450px;
+  left: 25px;
+}
+.small-square-3 {
+  height: 37px;
+  width: 37px;
+  background-color: white;
+  position: absolute;
+  top: 420px;
+  left: 100px;
+}
+.medium-square-4 {
+  height: 53px;
+  width: 53px;
+  background-color: white;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 35px;
+  padding: 7px;
+}
+.large-square-2 {
+  height: 74px;
+  width: 74px;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  right: 110px;
+}
+.medium-square-5 {
+  height: 53px;
+  width: 53px;
+  background-color: white;
+  position: absolute;
+  top: 130px;
+  right: 160px;
+}
+.medium-square-6 {
+  height: 53px;
+  width: 53px;
+  background-color: white;
+  position: absolute;
+  top: 180px;
+  right: 90px;
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+}
 .large-square-5 {
   height: 74px;
   width: 74px;
@@ -682,7 +602,7 @@ footer p {
   width: 53px;
   background-color: black;
   position: absolute;
-  top: 600px;
+  top: 470px;
   right: 150px;
 }
 .small-square-8 {
@@ -698,6 +618,83 @@ footer p {
   width: 37px;
   background-color: black;
   position: absolute;
-  top: 650px;
+  top: 450px;
   right: 130px;
 }
+/* squares about us*/
+.large-square-3 {
+  height: 74px;
+  width: 74px;
+  background-color: black;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+.medium-square-7 {
+  height: 53px;
+  width: 53px;
+  background-color: black;
+  position: absolute;
+  top: 550px;
+  left: 140px;
+}
+.small-square-4 {
+  height: 37px;
+  width: 37px;
+  background-color: black;
+  position: absolute;
+  top: 670px;
+  left: 200px;
+}
+.small-square-5 {
+  height: 37px;
+  width: 37px;
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+.medium-square-8 {
+  height: 53px;
+  width: 53px;
+  background-color: black;
+  position: absolute;
+  top: 130px;
+  right: 210px;
+}
+.small-square-6 {
+  height: 37px;
+  width: 37px;
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+}
+.small-square-7 {
+  height: 37px;
+  width: 37px;
+  background-color: black;
+  position: absolute;
+  top: 195px;
+  right: 170px;
+}
+
+.large-square-4 {
+  height: 74px;
+  width: 74px;
+  background-color: black;
+  position: relative;
+  top: -90px;
+  left: 35%;
+}
+.medium-square-9 {
+  height: 53px;
+  width: 53px;
+  background-color: black;
+  position: absolute;
+  top: 90px;
+  left: 33%;
+}
+/* ====================================
+// squares
+// ==================================== */
