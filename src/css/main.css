@@ -303,13 +303,16 @@ h2 {
 }
 
 .container-image-section {
-  max-height: 1300px;
+  max-height: 1500px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 200px;
+  padding-top: 300px;
+  position: relative;
 }
 
 .container-image-section h2 {
@@ -492,9 +495,10 @@ button {
   text-align: center;
   margin: auto;
   display: flex;
+  text-decoration: none;
 }
 button p {
-  padding: 11px 45px;
+  padding: 15px 45px;
   text-align: center;
 }
 .button {
@@ -507,6 +511,9 @@ button p {
 }
 .button-container {
   padding-bottom: 4%;
+}
+a:link {
+  text-decoration: none;
 }
 .container {
   color: #333;
@@ -557,6 +564,12 @@ li span {
   width: 70%;
   padding-top: 7%;
   padding-bottom: 10%;
+}
+.container-but {
+  height: 740px;
+}
+.but {
+  padding-bottom: 70px;
 }
 .call-to-action {
   background-color: black;
